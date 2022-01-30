@@ -1,5 +1,5 @@
 let generateRandom = num => {
-    // return randoom number baseed on length of array
+    // return randoom number based on length of array
     return Math.floor(Math.random() * num);
 }
 
@@ -34,7 +34,7 @@ for (let prop in messageComponents) {
 }
 
 let format = message => {
-    
+
     // fomrat the messages to include new lines for each pushed seperate message.
     const format = message.join('\n');
     console.log(format);
