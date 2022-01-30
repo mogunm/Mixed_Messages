@@ -34,8 +34,8 @@ for (let prop in messageComponents) {
 }
 
 let format = message => {
-    // fomrat the messages to be one big message.
-
+    
+    // fomrat the messages to include new lines for each pushed seperate message.
     const format = message.join('\n');
     console.log(format);
 }
